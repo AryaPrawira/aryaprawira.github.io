@@ -1,0 +1,45 @@
+header {
+    padding: 15px;
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    margin: auto;
+    border: 5px solid black;
+    padding: 15px;
+    border-radius: 20px;
+    display: table;
+    background: purple;
+}
+
+.box2 {
+    margin: auto;
+    border: 5px solid black;
+    padding: 15px;
+    border-radius: 20px;
+    display: table;
+    background: violet;
+}
+
+.text-center {
+    text-align: center;
+    border: 3px solid black;
+    margin: auto;
+}
+
+body {
+    margin: 0;
+}
+
+@media (max-width: 600px){
+    aside,
+    article {
+        width: 100%;
+        height: 100%;
+      }  
+}
